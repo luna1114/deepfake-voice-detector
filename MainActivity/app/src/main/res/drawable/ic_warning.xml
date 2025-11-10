@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- 노란 삼각형 배경 -->
+    <path
+        android:fillColor="#FACC15"
+        android:pathData="M1,21h22L12,2z"/>
+
+    <!-- 외곽선 (연한 어두운 노랑) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#EAB308"
+        android:strokeWidth="1"
+        android:pathData="M1,21h22L12,2z"/>
+
+    <!-- 느낌표 막대 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M11,8h2v6h-2z"/>
+
+    <!-- 느낌표 점 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M11,16h2v2h-2z"/>
+</vector>
